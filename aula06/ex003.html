@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa com JS...</title>
+    <style>
+        body{
+            background-color: rgb(116, 159, 200);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        h1{
+            color: rgb(248, 217, 16);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Já me livrei da maldição!!</p>
+
+    <script>//Guardando
+        var n1 = Number.parseInt(window.prompt('Digite um número inteiro: ')) //transformando string em number int
+        var n2 = Number.parseFloat(window.prompt('Digite um número decimal: ')) // transformando string em number float
+        var n3 = Number(window.prompt('Digite um número: ')) // transformando string em número
+        var s = n1 + n2 + n3
+        
+        window.alert(`A soma entre ${n1}, ${n2} e ${n3} é igual á: ${s}`)
+        // (number + number) para adição
+        // (string + string) para concatenação
+
+    </script>
+</body>
+</html>
